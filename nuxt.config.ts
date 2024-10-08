@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   },
   postcss: {
     plugins: {
+      tailwindcss: {}, //tailwindcss要写在autoprefixer前边
       autoprefixer: {
         overrideBrowserslist: ["Chrome > 40", "ff > 31", "ie 11"],
       },
