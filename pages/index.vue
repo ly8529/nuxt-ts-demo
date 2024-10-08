@@ -3,6 +3,7 @@
   <h1 class="text-3xl font-bold underline" @click="addCount">
     {{ counterStore.count }}
   </h1>
+  <NuxtIcon name="art" class="text-32px"></NuxtIcon>
 </template>
 <script setup lang="ts">
 import { useCounterStore } from "../store/index";

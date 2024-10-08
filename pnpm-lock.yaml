@@ -4,6 +4,7 @@ specifiers:
   '@pinia/nuxt': ^0.5.5
   autoprefixer: ^10.4.20
   nuxt: ^3.13.0
+  nuxt-icons: ^3.2.1
   pinia: ^2.2.4
   sass: ^1.79.4
   tailwindcss: ^3.4.13
@@ -13,6 +14,7 @@ specifiers:
 dependencies:
   '@pinia/nuxt': 0.5.5_vue@3.5.11
   nuxt: 3.13.2_sass@1.79.4
+  nuxt-icons: 3.2.1
   pinia: 2.2.4_vue@3.5.11
   vue: 3.5.11
   vue-router: 4.4.5_vue@3.5.11
@@ -4253,6 +4255,17 @@ packages:
     resolution: {integrity: sha512-MhG4QR6D95jQxhnwKfdKXulZ8Yqy1nbpwbotbxY5IcabOzpEeTB8hYn2BFkmYdMUB0no81qpv2ldZmVCT9UsnQ==}
     engines: {node: ^16.10.0 || >=18.0.0}
     hasBin: true
+    dev: false
+
+  /nuxt-icons/3.2.1:
+    resolution: {integrity: sha512-trvAFq9oWYwWEQ0qZDHVxvLK+TwOdFnoXYOXQvN1CRUlp1DBJdxC8vXO3mED2Kb+Suag+bpWLC6eXGrRwhfffQ==}
+    dependencies:
+      '@nuxt/kit': 3.13.2
+    transitivePeerDependencies:
+      - magicast
+      - rollup
+      - supports-color
+      - webpack-sources
     dev: false
 
   /nuxt/3.13.2_sass@1.79.4:

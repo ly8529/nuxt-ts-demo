@@ -12,5 +12,10 @@ export default defineNuxtConfig({
       tailwindcss: {},
     },
   },
-  modules: ["@pinia/nuxt"],
+  modules: ["@pinia/nuxt", "nuxt-icons"],
+  // alias: {
+  //   "@": "/<srcDir>",
+  //   assets: "/<srcDir>/assets",
+  //   public: "/<srcDir>/public",
+  // },
 });
