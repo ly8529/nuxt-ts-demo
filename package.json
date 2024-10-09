@@ -19,6 +19,7 @@
     "nuxt-icons": "^3.2.1",
     "pinia": "^2.2.4",
     "vue": "latest",
+    "vue-i18n": "^10.0.4",
     "vue-router": "latest"
   },
   "packageManager": "pnpm@9.11.0+sha1.4cd20e68438613738e8f2bc9aece61eaa6b3e649",
