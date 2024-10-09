@@ -4,9 +4,11 @@
 		{{ counterStore.count }}
 	</h1>
 	<nuxt-icon name="art" class="text-32px"></nuxt-icon>
+	<a-button>ant-btn</a-button>
 </template>
 <script setup lang="ts">
-import { useCounterStore } from '../store/index'
+import { Button as AButton } from 'ant-design-vue'
+import { useCounterStore } from '@/store/index'
 const counterStore = useCounterStore()
 function addCount() {
 	counterStore.increment()
